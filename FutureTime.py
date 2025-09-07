@@ -28,8 +28,7 @@ def main():
   futureTime = ("futureHour + futureMins")
 
   print("The time will be: ")
-  print(futureHour, futureMins)
-
+  print(f"{futureHour:02}:{futureMins:02}")
 
   #Do not use any if statements in calculating the time.
 
